@@ -3,9 +3,10 @@ import random
 #Types of challenges.
 print("Welcome to the number guessing game.")
 print("Choose difficulty.")
-print("1. Easy (numbers 1 to 10, right to guess 5.)")
-print("2. Medium (numbers 1 to 500, right to guess 10.)")
-print("3. Medium (numbers from 1 to 1000, right to guess 20.)")
+print("1. Easy (numbers 1 to 10, right to guess 3.)")
+print("2. Medium (numbers 1 to 500, right to guess 6.)")
+print("3. Medium (numbers from 1 to 1000, right to guess 9.)")
+
 
 Difficulty = int(input("Choose difficulty (1-3): "))
 
@@ -24,11 +25,11 @@ else:
 
 # RightToGuess
 if Difficulty == 1 :
-    rightToGuess = 5
+    rightToGuess = 3
 elif Difficulty == 2 :
-    rightToGuess = 10
+    rightToGuess = 6
 else:
-    rightToGuess = 20
+    rightToGuess = 9
 
 # remaining guess right, veriables.
 remainingGuessRight = "Remaining guess right"
